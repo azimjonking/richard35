@@ -13,15 +13,15 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      <Home />
+      <Home /> 
       <Section2 />
-      <Section3 />
+       <Section3 />
       <Info />
       <Food />
       <Testimonial />
       <Application />
       <Contact />
-      <Footer />
+      <Footer /> 
     </div>
   );
 };
