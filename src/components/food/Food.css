@@ -1,0 +1,129 @@
+.food {
+    width: 100%;
+}
+
+.food .bur {
+    display: flex;
+    padding-left: 58px;
+    padding-right: 168px;
+    gap: 65px;
+    padding-bottom: 100px;
+}
+
+.food .bur .text {
+    gap: 90px;
+    padding-left: 100px;
+}
+
+.food .bur .p1 {
+    padding-top: 10px;
+    opacity: 70%;
+    font-size: 20px;
+}
+
+.food .bur h1 {
+    width: 258px;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.food .bur .p2 {
+    padding-top: 40px;
+    width: 330px;
+    opacity: 70%;
+    height: 220px;
+    font-size: 20px;
+}
+
+.foto img {
+    padding-left: 100px;
+}
+
+.foto .waz {
+    width: 304px;
+}
+
+
+
+
+.food .chips {
+    width: 100%;
+}
+
+.chips {
+    display: flex;
+    padding-left: 58px;
+    padding-right: 168px;
+    gap: 65px;
+}
+.chips .tex {
+    gap: 90px;
+    padding-left: 100px;
+}
+.chips .p3 {
+    padding-top: 10px;
+    opacity: 70%;
+    font-size: 20px;
+}
+.chips .waz {
+    width: 258px;
+    padding-top: 40px;
+    font-size: 40px;
+}
+.chips .p4 {
+    padding-top: 40px;
+    width: 330px;
+    opacity: 70%;
+    height: 220px;
+    font-size: 20px;
+}
+.chips img {
+    padding-left: 100px;
+}
+
+
+@media (max-width: 600px) {
+    .food .bur,
+    .chips {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .food .bur .text,
+    .chips .tex {
+        padding-left: 0;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .food .bur h1,
+    .chips .waz {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .food .bur .p1,
+    .chips .p3 {
+        font-size: 16px;
+    }
+
+    .food .bur .p2,
+    .chips .p4 {
+        font-size: 16px;
+        width: 100%;
+        height: auto;
+    }
+
+    .foto img,
+    .chips img {
+        padding-left: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
